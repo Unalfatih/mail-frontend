@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+  }
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  .navButtons {
+    display: flex;
+    gap: 15px;
+  }
+  .button {
+    padding: 10px 20px;
+    border: none;
+    background: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .primary {
+    background: #4834d4;
+    color: white;
+  }
