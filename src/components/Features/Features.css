@@ -1,38 +1,53 @@
 .features {
-    text-align: center;
-    padding: 60px 20px;
-    background-color: #f8f9fa;
-  }
-  
-  .features h2 {
-    font-size: 32px;
-    margin-bottom: 30px;
-  }
-  
-  .features-list {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    flex-wrap: wrap;
-  }
-  
-  .feature-item {
-    max-width: 300px;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .feature-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-  }
-  
-  .feature-icon {
-    font-size: 40px;
-    color: #007bff;
-    margin-bottom: 15px;
-  }
-  
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f8f9fa;
+}
+
+.features h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.features p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px 100px; /* Satırlar arası ve sütunlar arası boşluk */
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.feature-item {
+  display: flex;
+  align-items: flex-start; /* İkon ve metni yukarı hizalar */
+  gap: 15px;
+}
+
+.feature-icon {
+  font-size: 50px;
+  color: #003366;
+}
+
+.feature-text {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-text h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px; /* Başlık ile açıklama arasına küçük boşluk */
+}
+
+.feature-text p {
+  font-size: 16px;
+  color: #555;
+}
